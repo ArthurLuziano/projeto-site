@@ -1,3 +1,7 @@
+:root {
+    --title-color: #5e045e;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -13,4 +17,33 @@ main {
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+h1 {
+    font-size: 2em;
+    color: var(--title-color);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: var(--title-color);
+}
+
+.img-Decoration {
+    float: right;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2c022c;
 }
